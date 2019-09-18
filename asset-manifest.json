@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/BOBO/static/css/main.2d4a9ecf.chunk.css",
+    "main.js": "/BOBO/static/js/main.7e658691.chunk.js",
+    "main.js.map": "/BOBO/static/js/main.7e658691.chunk.js.map",
+    "runtime~main.js": "/BOBO/static/js/runtime~main.8e648452.js",
+    "runtime~main.js.map": "/BOBO/static/js/runtime~main.8e648452.js.map",
+    "static/css/2.09d751c7.chunk.css": "/BOBO/static/css/2.09d751c7.chunk.css",
+    "static/js/2.e3df0c92.chunk.js": "/BOBO/static/js/2.e3df0c92.chunk.js",
+    "static/js/2.e3df0c92.chunk.js.map": "/BOBO/static/js/2.e3df0c92.chunk.js.map",
+    "index.html": "/BOBO/index.html",
+    "precache-manifest.560f34480e8d601d470b93bb82519139.js": "/BOBO/precache-manifest.560f34480e8d601d470b93bb82519139.js",
+    "service-worker.js": "/BOBO/service-worker.js",
+    "static/css/2.09d751c7.chunk.css.map": "/BOBO/static/css/2.09d751c7.chunk.css.map",
+    "static/css/main.2d4a9ecf.chunk.css.map": "/BOBO/static/css/main.2d4a9ecf.chunk.css.map",
+    "static/media/BOBO_logo.jpeg": "/BOBO/static/media/BOBO_logo.3a739164.jpeg",
+    "static/media/basic.png": "/BOBO/static/media/basic.38eea7b4.png"
+  }
+}
