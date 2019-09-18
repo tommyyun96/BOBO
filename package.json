@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "deploy": "node deploy.js"
   },
-  "homepage": "https://kimjungwow.github.io/BOBO",
+  "homepage": "https://tommyyun96.github.io/BOBO",
   "eslintConfig": {
     "extends": "react-app"
   },
