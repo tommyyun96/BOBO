@@ -1,0 +1,84 @@
+/* css for adding class record (jungwoo) */
+
+.buttonright {
+  float:right;
+  margin-right: 8%;
+}
+.buttonleft {
+  margin-left: 6%;
+}
+.bottommargin {
+  margin-top: 65px;
+
+}
+.inline-block {
+    display: inline;
+    width: 100%;
+
+ }
+
+ #studenttextarea, #studentstext{
+     float:left;
+ }
+ ul { list-style-type: none; }
+ input[type="file"] {
+   opacity: 0;
+   position: absolute;
+   pointer-events: none;
+
+   width: 1px;
+   height: 1px;
+
+ }
+input[type="file"]+label {
+
+  color:white;
+}
+
+
+
+
+.pinkbutton {
+  background-color: #f7d0da;
+  color: #444444;
+  font-weight: bold;
+  width: 25%;
+  
+  margin-left: 17%;
+  
+} .pinkbutton:hover {
+  background-color: #f1b8c8;
+}
+
+.bigfont {
+  font-size:14px;
+}
+
+.buttons {
+  margin:auto;
+  
+}
+
+.buttons input[type="file"]+label {
+  color: #444444;
+}
+
+.pinkcancelbutton {
+  background-color: #f7d0da;
+  color: #444444;
+  font-weight: bold;
+}.pinkcancelbutton:hover {
+  background-color: #f1b8c8;
+}
+
+.textdemoclass {
+  font-size:medium;
+}
+
+.UploadRecordImage {
+  width:60%;
+  height:auto;
+  border: 3px solid #f1b8c8;
+  margin-top:15px;
+  margin-left: 15px;
+}

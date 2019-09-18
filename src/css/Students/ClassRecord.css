@@ -1,0 +1,116 @@
+/* css for showing class record (yunha) */
+
+.class-record-content
+{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.show-record-list-row {
+  width: 100%;
+  overflow: scroll;
+  flex: 1;
+  /*max-height: 450px; */
+}
+
+.class-record-item
+{
+  display: table;
+  height: 100%;
+}
+
+
+
+
+
+
+.board-list-add-btn {
+  background-color: palevioletred;
+}
+
+.who-wrote-col {
+  color: #88024f; /* pink darken-4*/
+  text-align: right;
+}
+
+
+
+.edit-record-icon {
+  color: darkgray;
+}
+
+/* Delete popup */
+
+.RecordDeleteContainer
+{
+    display:table;
+}
+
+.RecordDeleteTitle
+{
+    color: #b71c1c;
+    display: table-row;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.RecordDeleteContainer [type="checkbox"]:checked + span:not(.lever):before {
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.RecordDeleteContainer [type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.RecordDeleteCheckbox
+{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.RecordDeleteWarningText
+{
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.RecordDeleteWarningTextImportant
+{
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #b71c1c;
+}
+
+.pink-cancel-button {
+  background-color: #f39ca0;
+  font-weight: bold;
+}.pink-cancel-button:hover {
+  background: #f39ca0;
+}
+
+
+
+
+
+#hash-span {
+  color: #db98a5;
+  /*color:#8d192b; */ /* rose color */
+}
+
+#selectHash {
+  color: #db98a5;
+}
+
+.RecordImage {
+  width:80%;
+  height:auto;
+  border: 3px solid #f1b8c8;
+  margin-top:15px;
+  margin-left: 15px;
+}

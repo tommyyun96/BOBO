@@ -1,0 +1,18 @@
+.DonationTitle
+{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.DonationContent
+{
+  font-weight: bold;
+  color: darkred;
+  font-size: 20px;
+}
+
+.DonationLastWord
+{
+  font-weight: bold;
+  font-size: 15px;
+}

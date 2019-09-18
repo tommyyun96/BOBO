@@ -1,0 +1,19 @@
+.menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: lavenderblush;
+}
+
+.menu-item {
+  text-align: center;
+  align-items: center;
+  flex: 1;
+}
+
+.menu-icon {
+  color: palevioletred;
+  /*color: #e57373; /* red lighten-2 */
+  /* color: #88024f; /* pink darken-4 */
+}

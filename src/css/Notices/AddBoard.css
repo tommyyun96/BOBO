@@ -1,0 +1,32 @@
+#add-board-name-row, #add-board-name-row div, #add-board-name{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#add-board-name-row .helper-text {
+  min-height: 0;
+}
+
+#add-board-user-list-row div.row {
+  overflow: scroll;
+  max-height: 250px;
+}
+
+#add-board-user-list-row [type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid palevioletred;
+  border-bottom: 2px solid palevioletred;
+}
+
+#add-board-name-row .input-field label.active {
+  color: palevioletred;
+}
+
+#add-board-name-row textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}
+
+#add-board-name-row input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}

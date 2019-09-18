@@ -1,0 +1,124 @@
+.InstructorsNoteContent
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.NoteContainer
+{
+    flex:1;
+    overflow: scroll;
+}
+
+.Note
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+
+.NoteInstructor
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: 0.7px;
+}
+
+.NoteContent
+{
+    font-size: 18px;
+    width: 10px;
+    text-overflow: ellipsis;
+}
+
+.NoteContentDetail
+{
+  width: 70%;
+}
+
+.MyNoteButtonContainer
+{
+
+  float:right;
+}
+
+.MyNoteButtonContainer
+{
+  width: "50px";
+  height: "50px";
+}
+
+.NoteDeleteContainer
+{
+    display:table;
+}
+
+.NoteDeleteTitle
+{
+    color: #b71c1c;
+    display: table-row;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.NoteDeleteContainer [type="checkbox"]:checked + span:not(.lever):before {
+    margin-left: 6px;
+    margin-top: 8px;
+}
+
+.NoteDeleteContainer [type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.NoteDeleteCheckbox
+{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.NoteDeleteWarningText
+{
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.NoteDeleteWarningTextImportant
+{
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #b71c1c;
+}
+
+.AddButtonContainer
+{
+    text-align: center;
+}
+
+.AddButton
+{
+    background-color:lightgray;
+    border:none;
+    width:150px;
+    height:40px;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+    border-radius: 10px;    
+}
+
+
+.InstructorNoteIcon {
+  color: darkgray;
+  /*color: #e57373; /* red lighten-2 */
+  /* color: #88024f; /* pink darken-4 */
+}

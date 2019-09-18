@@ -1,0 +1,27 @@
+.StudentProfileContent
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.ButtonContainer
+{
+    text-align: center;
+}
+
+.Button
+{
+  margin-top:40px;
+  border:none;
+  width:220px;
+  height:60px;
+  font-size:16px;
+  font-weight:bold;
+  letter-spacing: 0.5px;
+  background-color: #f7d0da;
+  color: #444444;
+  font-weight: bold;
+}.Button:hover
+{
+  background-color: #f1b8c8;
+}

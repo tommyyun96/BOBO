@@ -1,0 +1,97 @@
+#add-notice-name-row, #add-notice-name-row div, #add-notice-name, #add-notice-info-row .input-field{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#add-notice-name-row .helper-text, #add-notice-info-row .helper-text {
+  min-height: 0;
+}
+
+#noticeContent {
+  min-height: 230px;
+  max-height: 230px;
+  overflow: scroll;
+}
+
+#add-notice-name-row textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}
+
+#add-notice-name-row input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}
+
+#add-notice-name-row .input-field label.active {
+  color: palevioletred;
+}
+
+#add-notice-info-row [type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid palevioletred;
+  border-bottom: 2px solid palevioletred;
+}
+
+#add-notice-info-row [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, #add-notice-info-row [type="radio"].with-gap:checked + span:after {
+  border: 2px solid palevioletred;
+}
+
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+  background-color: palevioletred;
+}
+
+#add-notice-info-row .datepicker-date-display{
+  background-color: palevioletred;
+}
+
+#add-notice-info-row .datepicker-calendar-container .datepicker-cancel {
+  color: white;
+  background-color: palevioletred;
+}
+
+#add-notice-info-row .datepicker-calendar-container .datepicker-done {
+  color: white;
+  background-color: palevioletred;
+  margin-left: 10px;
+}
+
+#add-notice-info-row .datepicker-table td.is-selected {
+  background-color: palevioletred;
+}
+
+#add-notice-info-row .datepicker-table td.is-today {
+  color: red;
+  font-weight: bold;
+  font-size: 2.0em;
+}
+
+#add-notice-info-row {
+  padding: 0 10.5px;
+}
+
+#add-notice-type-col {
+  padding: 6px;
+}
+
+[type="radio"]:not(:checked) + span, [type="radio"]:checked + span {
+  padding-left: 23px;
+}
+
+#add-notice-info-row .input-field {
+  padding: 0px;
+  margin-top: 14px;
+}
+
+#add-notice-info-row .input-field.col label {
+  left: 0;
+}
+
+#add-notice-info-row .datepicker {
+  height: 30px;
+  font-size: 14px;
+}
+
+/* #add-notice-user-list-row div.row {
+  overflow: scroll;
+  max-height: 250px;
+} */

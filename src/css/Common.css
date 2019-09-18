@@ -1,0 +1,13 @@
+.CommonButton
+{
+  background-color: #f7d0da;
+  color: #444444;
+  font-weight: bold;
+}.CommonButton:hover
+{
+  background-color: #f1b8c8;
+}
+
+.CommonText {
+  color: #882243 !important;
+}

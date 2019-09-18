@@ -1,0 +1,89 @@
+#class-record-topbar {
+  width: 100%;
+}
+
+#student-list-search-row, #student-list-search-row div, #student-list-search{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
+  
+}
+
+#student-list-search-row > .helper-text {
+  min-height: 0;
+  /* width: 100%;
+  height: 100%; */
+}
+
+#student-list-search-row input[type=text]:not(.browswer-default):focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}
+
+#student-list-search-row i.material-icons.prefix.active {
+  color: palevioletred;
+}
+
+
+
+#select-class-row{
+  width: 100%; 
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* margin-left: 20px; */
+}
+
+#select-class-row .select-dropdown.dropdown-trigger {
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+
+
+
+.student-list-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#show-student-list-row {
+  width: 100%;
+  overflow: scroll;
+  flex: 1;
+}
+
+.profileImage{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.student{
+  display: table;
+  height: 100%;
+}
+.studentChild{
+  display: table;
+  vertical-align: middle;
+}
+
+
+.studentItem{
+  display: table;
+  height: 100%;
+}
+.studentItemChild{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+  color: black;
+  width: 210px;
+}
+
+.studentName{
+  font-weight: bold;
+  color:#882243;
+}

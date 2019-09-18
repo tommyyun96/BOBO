@@ -1,0 +1,44 @@
+#board-list-search-row, #board-list-search-row div, #board-list-search{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#board-list-search-row > .helper-text {
+  min-height: 0;
+}
+
+#board-list-add-btn {
+  background-color: palevioletred;
+  float:right;
+}
+
+#board-list-search-row input[type=text]:not(.browswer-default):focus:not([readonly]) {
+  border-bottom: 1px solid palevioletred;
+  box-shadow: 0 1px 0 0 palevioletred;
+}
+
+#board-list-search-row i.material-icons.prefix.active {
+  color: palevioletred;
+}
+
+#board-list-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#board-list-content #topbar-row {
+  flex: 2 1;
+  width: 100%;
+}
+
+#board-list-content  #board-list-search-row {
+  flex: 2;
+  width: 100%;
+}
+
+#board-list-content #board-list-row {
+  flex: 30;
+  width: 100%;
+  margin-bottom: 0px;
+  overflow: scroll;
+}
